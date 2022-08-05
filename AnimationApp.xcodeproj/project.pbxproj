@@ -14,6 +14,8 @@
 		1AB2FBE1289D6D5C00365D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB2FBE0289D6D5C00365D70 /* Assets.xcassets */; };
 		1AB2FBE4289D6D5C00365D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB2FBE2289D6D5C00365D70 /* LaunchScreen.storyboard */; };
 		1AB2FBF3289D746000365D70 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB2FBF2289D746000365D70 /* SpringAnimation */; };
+		1AB2FBF5289D7C4C00365D70 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2FBF4289D7C4C00365D70 /* Animation.swift */; };
+		1AB2FBF7289D7C6A00365D70 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB2FBF6289D7C6A00365D70 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		1AB2FBE0289D6D5C00365D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AB2FBE3289D6D5C00365D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AB2FBE5289D6D5C00365D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB2FBF4289D7C4C00365D70 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		1AB2FBF6289D7C6A00365D70 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		1AB2FBEF289D6E0900365D70 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1AB2FBF4289D7C4C00365D70 /* Animation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 		1AB2FBF0289D6E1200365D70 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1AB2FBF6289D7C6A00365D70 /* DataStore.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -196,6 +202,8 @@
 			files = (
 				1AB2FBDC289D6D5C00365D70 /* MainViewController.swift in Sources */,
 				1AB2FBD8289D6D5C00365D70 /* AppDelegate.swift in Sources */,
+				1AB2FBF5289D7C4C00365D70 /* Animation.swift in Sources */,
+				1AB2FBF7289D7C6A00365D70 /* DataStore.swift in Sources */,
 				1AB2FBDA289D6D5C00365D70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
